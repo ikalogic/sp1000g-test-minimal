@@ -2,6 +2,8 @@
  
 The aim of this project is to demonstrate the usage of SP1000G series logic analyzers and pattern generators API. Only 64bit system is supported.
 
+More info about the API can be found here: https://www.ikalogic.com/kb/ihwapi/logic-analyzer-api-guide/
+
 # Installation
 First, please download and install ScanaStudio for your platform. While ScanaStudio is not needed, this will ensure drivers are isntalled in windows, and correct UDEV rules are set for UNIX. 
 
