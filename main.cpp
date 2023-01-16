@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     trig_a.type = sp1000gapi_trigger_type_t::SP1000GAPI_TRG_NOTRIG;
     trig_a.channel = -1;
     trig_b.type = sp1000gapi_trigger_type_t::SP1000GAPI_TRG_NOTRIG;
-    trig_b.channel = 0;
+    trig_b.channel = -1;
 
     e = sp1000gapi_get_last_error(h);
     e = sp1000gapi_launch_new_capture_simple_trigger(h, trig_a, trig_b, settings);
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
         assert_err(e);
         msleep(100);
     }
-    // e = sp1000gapi_get_triggered_flag(h,&trg_flag);
+
     std::cout << "Trigged, ready for data!" << std::endl;
 
     int64_t total = 0;
