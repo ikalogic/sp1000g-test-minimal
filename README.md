@@ -4,6 +4,8 @@ The aim of this project is to demonstrate the usage of SP1000G series logic anal
 
 More info about the API can be found here: https://www.ikalogic.com/kb/ihwapi/logic-analyzer-api-guide/
 
+The example Qt projects takes care of correctly linking the libraries.
+
 # Installation
 First, please download and install ScanaStudio for your platform. While ScanaStudio is not needed, this will ensure drivers are isntalled in windows, and correct UDEV rules are set for UNIX. 
 
