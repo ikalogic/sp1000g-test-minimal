@@ -18,9 +18,8 @@ win32 {
     }
 
 }
-unix:!macx{
-    LIBS += -lsp1000g_api
-}
+
+macx: LIBS += -L$$PWD/dependencies/mac/ -lsp1000g_api.1.0.0
 
 HEADERS += \
     ihwapi_common_types.h \
