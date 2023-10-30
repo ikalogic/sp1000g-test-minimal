@@ -8,10 +8,13 @@ More info about the API can be found here: https://www.ikalogic.com/kb/ihwapi/lo
 First, please download and install ScanaStudio for your platform. While ScanaStudio is not needed, this will ensure drivers are isntalled in windows, and correct UDEV rules are set for UNIX. 
 
 ## Windows
-Nothing need to be done to get it running under windows, provided you use a recent (Qt5) environment.
+Compile against the sp1000g_api library in `dependencies/win` folder.
+important: sp1000g library needs to dynamicaly load the FTD3XX library, so the file `FTD3XX.DLL` need to be copied next to your executable.
 
 ## Linux
-currently untested under Linux - contact us if Linux port is needed
+Compile against the sp1000g_api library in `dependencies/linux` folder.
+important: sp1000g library needs to dynamicaly load the FTD3XX library, so the file `libftd3xx.so` need to be copied next to your executable.
 
 ## Mac
-currently untested under mac OS -  - contact us if MacOS port is needed
+Compile against the sp1000g_api library in `dependencies/mac` folder.
+important: sp1000g library needs to dynamicaly load the FTD3XX library, so the file `libftd3xx.dylib` need to be copied next to your executable.
