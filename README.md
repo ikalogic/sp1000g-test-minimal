@@ -2,7 +2,7 @@
  
 The aim of this project is to demonstrate the usage of SP1000G series logic analyzers and pattern generators API. Only 64bit system is supported.
 
-More info about the API can be found here: https://www.ikalogic.com/kb/ihwapi/logic-analyzer-api-guide/
+More info about the API can be found here: https://docs.ikalogic.com/la-api/la_home
 
 The example Qt projects takes care of correctly linking the libraries.
 
