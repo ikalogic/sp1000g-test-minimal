@@ -240,4 +240,4 @@ struct sp1000gapi_trs_t
 
 #pragma pack(pop)
 
-#endif // SP1018GAPI_TYPES_H
+#endif // SP1000GAPI_TYPES_H
